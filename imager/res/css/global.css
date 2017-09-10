@@ -1,0 +1,43 @@
+html{
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.card{
+	
+}
+
+
+.imager-navigator{
+	height: 48px;
+	width: 100%;
+	background-color: darkcyan;
+	color: white;
+}
+.imager-navigator-element-container{
+	float: right;
+	height: 100%;
+	display: inline-block;
+	padding: 0 0px;
+}
+.imager-navigator-element{
+	float: left;
+	display: inline-block;
+	font-size: 1.2em;
+	margin: 0 10px;
+	line-height: 48px;
+}
+.imager-navigator-element-spacer{
+	float: left;
+	display: inline-block;
+	width: 32px;
+}
+
+
+

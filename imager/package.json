@@ -1,0 +1,17 @@
+{
+  "name": "imager",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/m0n1s/imager",
+  "keywords": [
+    "imager"
+  ],
+  "author": "m0n1s",
+  "devDependencies": {
+    "electron": "~1.6.2"
+  }
+}
