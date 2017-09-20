@@ -33,4 +33,31 @@
 
 
 </body>
+<script type="text/javascript">
+const imagerElectronRenderer = require("../src/imager-electron/imager-electron-renderer");
+(async () => {
+
+
+var things = document.getElementsByClassName("imager-navigator");
+for (var i = 0; i < things.length; i++) {
+    things[i].style['-webkit-app-region'] = (/^darwin/.test(process.platform))?'drag':'';
+}
+
+var ret = imagerElectronRenderer.apiSync("tescht", 1);
+console.log(ret)
+
+imagerElectronRenderer.api("teschtAsync", 12).then((res) => {
+	console.log("async res");
+	console.log(res);
+})
+/*
+
+*/
+
+})();
+
+
+
+
+</script>
 </html>

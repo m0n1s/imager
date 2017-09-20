@@ -29,6 +29,7 @@ brown: 796F6F
 	color: #3c3c3c;
     z-index: 25;
     position: relative;
+    -webkit-user-select: none;
 }
 .imager-navigator-element-container{
 	float: right;
