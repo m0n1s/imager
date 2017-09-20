@@ -1,24 +1,34 @@
 html{
-   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
    font-weight: 300;
+   height: 100%;
+   height: 100%;
 }
 body{
 	margin: 0;
 	padding: 0;
+    background-color: #f6f6f6;
+    height: 100%;
+    width: 100%;
+    color: #3c3c3c;
 }
-
-
 
 .card{
-	
+
 }
 
+/*
+red : FE8A78
+brown: 796F6F
+*/
 
 .imager-navigator{
 	height: 48px;
 	width: 100%;
-	background-color: darkcyan;
-	color: white;
+	background-color: #8DD6D3;
+	color: #3c3c3c;
+    z-index: 25;
+    position: relative;
 }
 .imager-navigator-element-container{
 	float: right;
@@ -39,5 +49,29 @@ body{
 	width: 32px;
 }
 
+.imager-page{
+    display: flex;
+    height: calc(100% - 48px);
+    width: 100%;
+    z-index: 10;
+}
+.imager-page-sidebar{
+    width: 75px;
+    background-color: #796F6F;
+    display: flex;
+    flex-basis: 75px;
+    height: 100%;
+    color: white;
+}
+.imager-page-sidebar-item{
+    max-width: 100%;
+    padding: 5px;
 
-
+}
+.imager-page-content{
+    z-index: 15;
+    display: inline-block;
+    width: calc(100% - 75px);
+    height: 100%;
+    box-shadow: -8px 0px 21px 1px rgba(74,74,74,0.65);
+}
