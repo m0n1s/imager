@@ -6,23 +6,18 @@ function drawNavigatorElements(data){
 		var className = !!data[i].space ?"imager-navigator-element-spacer":"imager-navigator-element";
 		var context = !!data[i].space ? "&nbsp;" : data[i].name;
 
-		document.write(drawer.tag({"name":"div", "class": className, "content": context}));
+		document.write(drawer.tag({name:"div", "class": className, content: context}));
 	}
 }
 
-function drawGalleriesOverview(data){
-	
-
+function drawCss(data){
 	for (var i = data.length - 1; i >= 0; i--) {
-		data[i];
-		var className = "imager-galleries-miniatur"
-		var context = "test";
-		var html = '<div class="' + className+'">'+ context + '</div>';
-		
-		document.write(html);
+		document.write(drawer.tag({
+				name: "link",
+				attributes: 'rel="stylesheet" type="text/css" href="'+data[i]+'"',
+				short: true
+			}));
 	}
-
-	
 }
 
 module.exports = (new ( function() {
@@ -32,11 +27,9 @@ module.exports = (new ( function() {
 		if(what === "navigator-elements"){
 			drawNavigatorElements(data);
 		}
-		if(what === "galleries-overview"){
-			drawGalleriesOverview(data);
+		if(what === "css"){
+			drawCss(data);
 		}
 	}
-
-
 }));
 

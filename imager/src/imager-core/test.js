@@ -1,5 +1,33 @@
 var stor = require("./storage");
+var config = require("./config");
 
 
 
-console.log(stor.getAlbumById(12));
+
+async function main(){
+	config.load();
+	var test = await stor.getAlbumById(12);
+
+}
+
+
+
+main();
+
+
+
+
+var test = async () => {
+
+	return new Promise((resolve) => {
+		var ret = await (
+			function(){
+				return new Promise((res) => {
+					res({"asdf":"asdf"})
+				});
+			}
+		)();
+
+		resolve(ret);
+	});
+}
