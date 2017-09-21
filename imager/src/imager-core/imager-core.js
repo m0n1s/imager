@@ -10,19 +10,18 @@ function fullMerge(obj1,obj2){
 }
 
 module.exports = (new ( function() {
-	this.fileHandler = fileHandler;
+    this.fileHandler = fileHandler;
 
-	this.get = (what, data) => {
+    this.get = (what, data) => {
 
-	}
+    }
 
-	this.import = async (importFiles) => {
-		/*
-		return new Promise((res) => {
-			fileHandler.import(importFiles).then( ret => res(ret) );
-		})
-		*/
-
-		return = await fileHandler.import(importFiles);
-	} 
+    this.import = async (importFiles) => {
+        /*
+        return new Promise((res) => {
+            fileHandler.import(importFiles).then( ret => res(ret) );
+        })
+        */
+        return = await fileHandler.import(importFiles);
+    } 
 }));
