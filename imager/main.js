@@ -20,31 +20,35 @@ electron.app.on('browser-window-created',function(e,window) {
     window.setMenu(null);
 });
 function createWindow () {
-  // Create the browser window.
-  mainWindow = new BrowserWindow({width: 1024, height: 768, titleBarStyle: "hiddenInset"})
+    // Create the browser window.
+    mainWindow = new BrowserWindow({width: 1024, height: 768, titleBarStyle: "hiddenInset", show: false})
 
-  // and load the index.html of the app.
-  mainWindow.loadURL(url.format({
-    pathname: path.join(__dirname, '/sites/main.html'),
-    protocol: 'file:',
-    slashes: true
-  }))
+    // and load the index.html of the app.
+    mainWindow.loadURL(url.format({
+        pathname: path.join(__dirname, '/sites/main.html'),
+        protocol: 'file:',
+        slashes: true
+    }))
 
-  mainWindow.webContents.ie = require("./src/imager-electron/imager-electron.js");
+    mainWindow.webContents.ie = require("./src/imager-electron/imager-electron.js");
 
 
-  // Open the DevTools.
-  // mainWindow.webContents.openDevTools()
+    // Open the DevTools.
+    mainWindow.webContents.openDevTools()
 
-  // Emitted when the window is closed.
-  mainWindow.on('closed', function () {
-    // Dereference the window object, usually you would store windows
-    // in an array if your app supports multi windows, this is the time
-    // when you should delete the corresponding element.
-    mainWindow = null
-  })
-  imagerElectron.mainWindow = mainWindow;
-  //imagerElectron.test("");
+    // Emitted when the window is closed.
+    mainWindow.on('closed', function () {
+        // Dereference the window object, usually you would store windows
+        // in an array if your app supports multi windows, this is the time
+        // when you should delete the corresponding element.
+        mainWindow = null
+    })
+    mainWindow.on('ready-to-show', function() {
+        mainWindow.show();
+        mainWindow.focus();
+    });
+    imagerElectron.mainWindow = mainWindow;
+    //imagerElectron.test("");
 }
 
 // This method will be called when Electron has finished
@@ -59,6 +63,8 @@ app.on('window-all-closed', function () {
     // }
 })
 
+
+
 app.on('activate', function () {
     // On OS X it's common to re-create a window in the app when the
     // dock icon is clicked and there are no other windows open.
@@ -72,5 +78,3 @@ ipcMain.on('imager-api-async', imagerElectron.apiAsync);
 
 // Listen for sync message from renderer process
 ipcMain.on('imager-api-sync', imagerElectron.apiSync);
-
-
