@@ -1,0 +1,661 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"file",
+				"fileCopyWorker"
+			],
+			[
+				"impo",
+				"importFiles"
+			],
+			[
+				"asy",
+				"asyncApiHandler"
+			],
+			[
+				"pack",
+				"packagePack"
+			],
+			[
+				"imag",
+				"imagerElectronRenderer"
+			],
+			[
+				"send",
+				"sendSync"
+			],
+			[
+				"img",
+				"imager-electron"
+			],
+			[
+				"imager",
+				"imager-electron"
+			],
+			[
+				"ret",
+				"returnValue"
+			],
+			[
+				"ipc",
+				"ipcMain"
+			],
+			[
+				"main",
+				"mainWindow"
+			],
+			[
+				"all",
+				"allAlbum"
+			],
+			[
+				"stor",
+				"storageDriver"
+			],
+			[
+				"sto",
+				"storageDriver"
+			],
+			[
+				"db",
+				"dbFilePath"
+			],
+			[
+				"defa",
+				"defaultConfigPath"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"iln",
+				"inline-block"
+			],
+			[
+				"data",
+				"dataset"
+			],
+			[
+				"sit",
+				"sitesDir"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"side",
+				"side-menu"
+			],
+			[
+				"sid",
+				"sidemenu"
+			],
+			[
+				"cont",
+				"container"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"new",
+				"newMenu"
+			],
+			[
+				"menu",
+				"menuDivId"
+			],
+			[
+				"ov",
+				"overflow-x"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"onmouse",
+				"onmouseup\tAttr"
+			],
+			[
+				"me",
+				"menuShown"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"clas",
+				"classes"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"tag",
+				"tagname"
+			],
+			[
+				"draw",
+				"drawNavigatorElement"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"sr",
+				"source\tTag"
+			],
+			[
+				"arg",
+				"argv"
+			],
+			[
+				"uint",
+				"uint8_t"
+			],
+			[
+				"prin",
+				"printWidth"
+			],
+			[
+				"EEPR",
+				"EEPROM_SIZE"
+			],
+			[
+				"cha",
+				"curChannel"
+			],
+			[
+				"totp",
+				"totp_t"
+			],
+			[
+				"To",
+				"TOOLS"
+			],
+			[
+				"da",
+				"dataChain"
+			],
+			[
+				"get",
+				"getChain"
+			],
+			[
+				"no",
+				"nodeOrNodes"
+			],
+			[
+				"time",
+				"timestamp"
+			],
+			[
+				"has",
+				"hasDuplicates"
+			],
+			[
+				"uni",
+				"unlinkDir"
+			],
+			[
+				"hanl",
+				"handleError"
+			],
+			[
+				"cn",
+				"configFilePath"
+			],
+			[
+				"load",
+				"loadedConfig"
+			],
+			[
+				"confi",
+				"configFilePath"
+			],
+			[
+				"DIR",
+				"DIR_BUILD"
+			],
+			[
+				"SC",
+				"DIR_SRC"
+			],
+			[
+				"bu",
+				"buttonDown"
+			],
+			[
+				"mou",
+				"mouseY"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"SCRE",
+				"SCREEN_WIDTH"
+			],
+			[
+				"app",
+				"appsLength"
+			],
+			[
+				"ui",
+				"ui_titlebarDraw"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "imager/src/imager-core/imager-core.js",
+			"settings":
+			{
+				"buffer_size": 610,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "imager/src/imager-core/fileHandler.js",
+			"settings":
+			{
+				"buffer_size": 851,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"schme",
+				"Schemr: List all schemes"
+			],
+			[
+				"them",
+				"Themr: List themes"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 431.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/simon/Projects/imager",
+		"/Users/simon/Projects/imager/imager",
+		"/Users/simon/Projects/imager/imager/src",
+		"/Users/simon/Projects/imager/imager/src/imager-core"
+	],
+	"file_history":
+	[
+		"/Users/simon/Projects/imager/imager/src/imager-core/test.js",
+		"/Users/simon/Projects/imager/imager/src/imager-core/data/config.default.json",
+		"/Users/simon/Projects/imager/imager/sites/main.html",
+		"/Users/simon/Projects/imager/imager/src/imager-electron/drawer.js",
+		"/Users/simon/Projects/imager/imager/src/imager-electron/imager-electron-renderer.js",
+		"/Users/simon/Projects/imager/imager/src/imager-electron/imager-electron.js",
+		"/Users/simon/Projects/imager/imager/main.js",
+		"/Users/simon/Projects/imager/imager/src/imager-core/config.js",
+		"/Users/simon/Projects/imager/imager/src/imager-core/storage.js",
+		"/Users/simon/Projects/imager/imager/res/css/global.css",
+		"/Users/simon/Projects/imager/imager/src/imager-core/storage-sqlite.js",
+		"/Users/simon/Projects/ife/test.html",
+		"/Users/simon/Projects/ife/backend/pages/login.php",
+		"/Users/simon/Projects/wave/doc/tes/notes.md",
+		"/Users/simon/Projects/wave/doc/webvisu/Start1_2.htm",
+		"/Users/simon/Projects/wave/doc/webvisu/Start1_2_files/browsercontrol_ext0.js",
+		"/Users/simon/Projects/wave/doc/webvisu/Start1_2_files/webvisu.js",
+		"/Users/simon/Projects/wave/www/css/cards.css",
+		"/Users/simon/Projects/wave/README.md",
+		"/Users/simon/Projects/wave/.gitignore",
+		"/Users/simon/Projects/wave/www/css/ui.css",
+		"/Users/simon/Projects/wave/www/sites/pumps.html",
+		"/Users/simon/Projects/wave/www/js/ui.js",
+		"/Users/simon/Projects/wave/www/js/main.js",
+		"/Users/simon/Projects/wave/www/index.html",
+		"/Users/simon/Projects/wave/www/css/sidemenu.css",
+		"/Users/simon/Projects/wave/www/js/sidemenu.js",
+		"/Users/simon/Projects/wave/www/css/main.css",
+		"/Users/simon/Projects/wave/www/sites/home.html",
+		"/Users/simon/Projects/wave/www/sites/service.html",
+		"/Users/simon/Projects/wave/www/sites/flowter.html",
+		"/Users/simon/Projects/wave/www/sites/settings.html",
+		"/Users/simon/Projects/wave/www/data/config.json",
+		"/Users/simon/Projects/wave/www/data/i18n.json",
+		"/Users/simon/Projects/wave/www/js/wave.js",
+		"/Users/simon/Projects/wave/www/js/common.js",
+		"/Users/simon/Projects/wave/config.xml",
+		"/Users/simon/Projects/wave/src/js/main.js",
+		"/Users/simon/Projects/wave/src/css/main.js",
+		"/Users/simon/Projects/wave/src/css/sidemenu.js",
+		"/Users/simon/Projects/imager/imager/src/imager-electron/engine.js",
+		"/Users/simon/Projects/imager/doc/QuickStart.md",
+		"/Users/simon/Projects/imager/imager/src/imager-core/imager-core.js",
+		"/Users/simon/Projects/imager/imager/sites/galleries.html",
+		"/Users/simon/Projects/imager/imager/renderer.js",
+		"/Users/simon/Projects/imager/imager/sites/settings.html",
+		"/Users/simon/Projects/imager/imager/package.json",
+		"/Users/simon/Projects/authr-client/build.sh",
+		"/Users/simon/Documents/Arduino/libraries/SparklAuth/keywords.txt",
+		"/Users/simon/Documents/Arduino/libraries/SparklAuth/SparklAuth.h",
+		"/Users/simon/Documents/Arduino/libraries/SparklKeyboard/DigiKeyboard.h",
+		"/Users/simon/Documents/Arduino/libraries/SparklKeyboard/keywords.txt",
+		"/Users/simon/Documents/Arduino/libraries/SparklUSB/keywords.txt",
+		"/Users/simon/Documents/Arduino/libraries/SparklUSB/DigiUSB.h",
+		"/Users/simon/Documents/Arduino/libraries/SparklUSB/DigiUSB.cpp",
+		"/Users/simon/test/attiny/build.sh",
+		"/Users/simon/Documents/Arduino/libraries/SHA/sha1_config.h",
+		"/Users/simon/Documents/Arduino/libraries/SHA/keywords.txt",
+		"/Users/simon/Documents/Arduino/libraries/SHA/Makefile",
+		"/Users/simon/Documents/Arduino/libraries/SHA/sha256.cpp",
+		"/Users/simon/Documents/Arduino/libraries/hmac-sha1/sha1-asm.S",
+		"/Users/simon/Projects/authr/Makefile",
+		"/Users/simon/Projects/authr/lib/totp/sha1.h",
+		"/Users/simon/Projects/authr/lib/totp/sha1.c",
+		"/Users/simon/Projects/authr/lib/totp/totp.h",
+		"/Users/simon/Projects/authr/lib/totp/totp.c",
+		"/Users/simon/Projects/remoteDownload/package.json",
+		"/Users/simon/Projects/meshRouting/nodejs/SHA1.js",
+		"/Users/simon/Projects/meshRouting/nodejs/dataChain.js",
+		"/Users/simon/Projects/meshRouting/nodejs/MRNode.js",
+		"/Users/simon/Projects/meshRouting/nodejs/main.js",
+		"/Users/simon/Projects/meshRouting/README.md",
+		"/Users/simon/Projects/meshRouting/DOC.md",
+		"/Users/simon/Projects/meshRouting/main.js",
+		"/Users/simon/Projects/meshRouting/package.json",
+		"/Users/simon/Projects/netStore/client/handler.js",
+		"/Users/simon/Projects/netStore/doc/client.md",
+		"/Users/simon/Projects/netStore/doc/api.md",
+		"/Users/simon/Projects/netStore/doc/server.md",
+		"/Users/simon/Projects/netStore/client/config.json",
+		"/Users/simon/Projects/netStore/client/test/test.txt",
+		"/Users/simon/Projects/netStore/client/client.js",
+		"/Users/simon/Projects/netStore/client/main.js",
+		"/Users/simon/Projects/netStore/README.md",
+		"/Users/simon/Projects/netStore/client/package.json",
+		"/Users/simon/Projects/netStore/server/main.js",
+		"/Users/simon/Projects/netStore/server/package.json",
+		"/Users/simon/Projects/netStore/netStoreJS",
+		"/Users/simon/Projects/netStore/netStoreJS/netStoreJS.js",
+		"/Users/simon/Projects/comLink/client/nodejs/package.json",
+		"/Users/simon/Projects/comLink/doc/client.md",
+		"/Users/simon/Projects/comLink/README.md",
+		"/Users/simon/Projects/comLink/doc/comLink.md",
+		"/Users/simon/Projects/comLink/doc/server.md",
+		"/Users/simon/Projects/tether/test/widgets/Makefile",
+		"/Users/simon/Projects/tether/src/lib/tether/tether.c",
+		"/Users/simon/Projects/tether/src/main.c",
+		"/Users/simon/Projects/tether/test/widgets/src/test.c",
+		"/Users/simon/Projects/tether/test/widgets/src/widgets.c",
+		"/Users/simon/Projects/tether/test/widgets/src/widgets.h",
+		"/Users/simon/Projects/tether/test/widgets/src/test.h",
+		"/Users/simon/Projects/tether/Makefile",
+		"/Users/simon/Projects/tether/src/main.h",
+		"/Users/simon/Projects/ev3/arm/Makefile",
+		"/Users/simon/Projects/ev3/arm/src/arm.h",
+		"/Users/simon/Projects/ev3/arm/src/arm.c",
+		"/Users/simon/Projects/ev3/arm/main.h",
+		"/Users/simon/Projects/ev3/arm/main.c",
+		"/Users/simon/Projects/ev3/arm/test.c",
+		"/Users/simon/Projects/ev3/arm",
+		"/Users/simon/Projects/ev3/Docker/Dockerfile",
+		"/Users/simon/Projects/vita/taiShell/src/ui/app.h",
+		"/Users/simon/Projects/vita/taiShell/src/ui/titlebar.c",
+		"/Users/simon/Projects/vita/taiShell/src/main.h",
+		"/Users/simon/Projects/vita/taiShell/src/ui/titlebar.h",
+		"/Users/simon/Downloads/01_hello_SDL/01_hello_SDL.c",
+		"/Users/simon/Projects/vita/taiShell/build.sh",
+		"/Users/simon/Projects/vita/taiShell/CMakeLists.txt",
+		"/Users/simon/Projects/vita/taiShell/src/launcher/launcher.c",
+		"/Users/simon/Projects/vita/taiShell/src/launcher/launcher.h",
+		"/Users/simon/Projects/vita/taiShell/Makefile",
+		"/Users/simon/Projects/stor-sat/Makefile",
+		"/Users/simon/Projects/steamLink/steamlink-sdk/examples/sdl/testspriteminimal.c"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "imager/src/imager-core/imager-core.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 610,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								601,
+								601
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "imager/src/imager-core/fileHandler.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 851,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								469,
+								469
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "imager.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 259.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
