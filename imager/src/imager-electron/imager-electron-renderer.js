@@ -1,5 +1,8 @@
 var drawer = require("./drawer.js");
 
+var {ipcRenderer, remote} = require('electron');
+var packagePack = require('./imager-electron').packagePack;
+
 function drawNavigatorElements(data){
 	for (var i = data.length - 1; i >= 0; i--) {
 		var className = !!data[i].space ?"imager-navigator-element-spacer":"imager-navigator-element";
@@ -7,8 +10,6 @@ function drawNavigatorElements(data){
 		document.write(drawer.tag({name:"div", "class": className, content: context}));
 	}
 }
-var {ipcRenderer, remote} = require('electron');
-var packagePack = require('./imager-electron').packagePack;
 
 module.exports = (new (function(){
 	this.drawer = drawer;
@@ -20,18 +21,6 @@ module.exports = (new (function(){
 			asyncApiHandler[action] = [];
 		}
 		asyncApiHandler[action].push(handler);
-	}
-
-	this.linkCss = (data) => {
-		var head = document.getElementsByTagName( "head" )[0];
-		for (var i = data.length - 1; i >= 0; i--) {
-			var link = document.createElement( "link" );
-			link.href = data[i];
-			link.type = "text/css";
-			link.rel = "stylesheet";
-			link.media = "screen,print";
-			head.appendChild( link );
-		}
 	}
 
 	this.draw = (what, data) => {
@@ -62,4 +51,26 @@ module.exports = (new (function(){
 			asyncApiHandler[arg.evt][i](arg.data);
 		}
 	});
+
+
+
+
+	this.run = () => {
+
+		var things = document.getElementsByClassName("imager-navigator");
+		for (var i = 0; i < things.length; i++) {
+		    things[i].style['-webkit-app-region'] = (/^darwin/.test(process.platform))?'drag':'';
+		}
+
+		var navigatorElements = {}
+
+		var ret = ier.apiSync("tescht", 1);
+		console.log(ret)
+
+		ier.api("teschtAsync", 12).then((res) => {
+			console.log("async res");
+			console.log(res);
+		})
+	}
+
 }));

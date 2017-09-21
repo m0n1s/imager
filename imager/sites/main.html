@@ -5,22 +5,12 @@
 		const ier = require("../src/imager-electron/imager-electron-renderer");
 	</script>
 	<title>Imager - main</title>
-	<script>ier.linkCss(["../res/css/global.css"])</script>
+	<script>ier.drawer.linkCss(["../res/css/global.css"])</script>
 </head>
 
 <body>
 <div class="imager-navigator">
-	<div class="imager-navigator-element-container">
-		<script>
-			ier.draw("navigator-elements", [
-				{"name":"Home"},
-				{"name":"Galleries"},
-				{"space":"true"},
-				{"name":"Settings"},
-			]);
-
-		</script>
-	</div>
+	<div class="imager-navigator-element-container"></div>
 </div>
 <div class="imager-page">
 	<div class="imager-page-sidebar">
@@ -37,21 +27,11 @@
 (async () => {
 
 
-var things = document.getElementsByClassName("imager-navigator");
-for (var i = 0; i < things.length; i++) {
-    things[i].style['-webkit-app-region'] = (/^darwin/.test(process.platform))?'drag':'';
-}
 
-var ret = ier.apiSync("tescht", 1);
-console.log(ret)
-
-ier.api("teschtAsync", 12).then((res) => {
-	console.log("async res");
-	console.log(res);
-})
-
+ier.run();
 
 })();
+
 
 
 
